@@ -25,7 +25,7 @@ namespace ItsTest.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            return View();//its goes te privacy wiew
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
